@@ -24,7 +24,11 @@ time ve os modülleri python da kendiliğin de vardır.
 4- [ChromeDriver](https://chromedriver.chromium.org/downloads) – Verdiğim linke tıklayıp chromedriver sitesine gidersiniz oradan size uygun sürümü bulup indirin <br>
 5- Size Uygun sürümü seçin o linke tıklayın ![image](https://user-images.githubusercontent.com/39805679/173199991-d2ce89a4-e7d2-457d-8dd1-c8f40b671122.png) <br>
 6- Tıkladık'tan sonra işletim sisteminize göre seçin İşletim sistemize  göre Windows'sa chromedriver_win32.zip seçin ![image](https://user-images.githubusercontent.com/39805679/173200114-ea314a12-fec2-4287-bb63-8d32ee41dd48.png)<br>
+7- chromedriver_win32.zip'i tıklayıp indirin  <br>
+![image](https://user-images.githubusercontent.com/39805679/173200523-3c4ee671-d6db-4a22-946d-1b336d878609.png)<br>
 
+8- Zip'i açınca Projeye indirdiğiniz klasörüne atın ![image](https://user-images.githubusercontent.com/39805679/173200662-715af02a-ff7d-45fe-abb7-49d09c10e249.png)
+9- Artık Google Chrome sürümünüzü başaralı bir şekil de ChromeDriver'ı indirdik.
 
 ## Çalışma Mantığı
 Not!! Google  açılınca hiç bir şeyle ilgilenmeyin Google ön planda açık kalsın çünkü ekran görüntüsü alırken  başka görüntüler alabilir.
