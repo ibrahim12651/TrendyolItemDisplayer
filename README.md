@@ -14,7 +14,26 @@ pip install progress <br>
 
 time ve os modülleri python da kendiliğin de vardır.
 
-## Google Sürümü Kontrol Etme
+
+## Discord'da WebHook açma
+
+1- Discord sunucusun da sunucu ayarlarına girin <br>
+![image](https://user-images.githubusercontent.com/39805679/173200924-1fb968a5-2150-4cd7-9a67-7747eafc2fed.png) <br>
+2-  Entegrasyonlar'a tıklayın <br>
+![image](https://user-images.githubusercontent.com/39805679/173200936-1f9b4e88-e342-4a6f-8670-c65190a37495.png) <br>
+3- Webhook oluştur yazısına tıklayın <br>
+![image](https://user-images.githubusercontent.com/39805679/173201040-d2386cf3-4870-40ed-841e-3bb0e5e7f793.png)<br>
+4- 3. Madde'yi yaptıktan sonra Açtığınız Webhook'u ismini ve istediğiniz kanalı seçip ayarlayın <br>
+![image](https://user-images.githubusercontent.com/39805679/173201337-c27e4052-5f76-4b57-aef8-e8bb9f560521.png) <br>
+5- Webhook Url'sini Kopyala yazısına tıklayın <br>
+![image](https://user-images.githubusercontent.com/39805679/173201585-8548e0cc-fff6-4157-8f15-a16dba8c85ba.png)<br>
+6- webhook = DiscordWebhook(url='') çift tırnağın içine kopyaladığınız linki içine yapıştırın  <br>
+![image](https://user-images.githubusercontent.com/39805679/173201734-67a3279c-a7e4-47d2-8b05-5e6a6ea8e075.png) <br>
+![image](https://user-images.githubusercontent.com/39805679/173201875-0c10d3a5-de65-4ef9-bdde-e0882d65397a.png) <br>
+
+
+
+## Google Sürümü Kontrol Etme Ve Güncelleme
 
 1- Google açın 3 noktalıya tıklayıp ayarlara tıklayın <br>
 2- Chrome hakkındaya tıklayın <br>
@@ -27,7 +46,7 @@ time ve os modülleri python da kendiliğin de vardır.
 7- chromedriver_win32.zip'i tıklayıp indirin  <br>
 ![image](https://user-images.githubusercontent.com/39805679/173200523-3c4ee671-d6db-4a22-946d-1b336d878609.png)<br>
 
-8- Zip'i açınca Projeye indirdiğiniz klasörüne atın ![image](https://user-images.githubusercontent.com/39805679/173200662-715af02a-ff7d-45fe-abb7-49d09c10e249.png)
+8- Zip'i açınca Projeye indirdiğiniz klasörüne atın ![image](https://user-images.githubusercontent.com/39805679/173200662-715af02a-ff7d-45fe-abb7-49d09c10e249.png) <br>
 9- Artık Google Chrome sürümünüzü başaralı bir şekil de ChromeDriver'ı indirdik.
 
 ## Çalışma Mantığı
