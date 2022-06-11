@@ -20,8 +20,8 @@ time ve os modülleri python da kendiliğin de vardır.
 2- Chrome hakkındaya tıklayın <br>
 ![image](https://user-images.githubusercontent.com/39805679/173199033-a7417c5c-6b4e-44b8-9e9f-d652287d471e.png) <br>
 3- Chrome hakkındaya tıkladıktan sonra  sürümü gösterilir <br>
-![image](https://user-images.githubusercontent.com/39805679/173199204-a7c6bafb-b664-4112-a305-ddb149820309.png)
-4- [ChromeDriver](https://chromedriver.chromium.org/) – Teknokodi blog sayfasının instagram hesabı
+![image](https://user-images.githubusercontent.com/39805679/173199204-a7c6bafb-b664-4112-a305-ddb149820309.png) <br>
+4- [ChromeDriver](https://chromedriver.chromium.org/) – Verdiğim linke tıklayıp chromedriver sitesine gidersiniz oradan size uygun sürümü bulup indirin
 
 
 
