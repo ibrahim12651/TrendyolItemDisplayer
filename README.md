@@ -31,6 +31,9 @@ time ve os modülleri python da kendiliğin de vardır.
 ![image](https://user-images.githubusercontent.com/39805679/173201734-67a3279c-a7e4-47d2-8b05-5e6a6ea8e075.png) <br>
 ![image](https://user-images.githubusercontent.com/39805679/173201875-0c10d3a5-de65-4ef9-bdde-e0882d65397a.png) <br>
 
+7- Ve sonuç :) <br>
+
+![image](https://user-images.githubusercontent.com/39805679/173203393-3a398c19-152d-438a-804f-59cfdaec6780.png)
 
 
 ## Google Sürümü Kontrol Etme Ve Güncelleme
