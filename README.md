@@ -1,7 +1,7 @@
-# Esya_Fiyati_Gosterimi
+# TrendyolItemDisplayer
 Telefon Markalarından istediğinizi yazıp size ismini ve fiyatını bir de fotosunu atacaktır.
 
-Not : Iphone ve Samsung telefonları üzerin de test ettim ve çalıştı eğer ki çalışmazsa bana ulaşın ! Discord : İbrahim#8285
+Not : Iphone ve Samsung telefonları üzerin de test ettim ve çalıştı eğer ki çalışmazsa bana ulaşın ! Discord : **İbrahim#8285**
 
 ![image](https://user-images.githubusercontent.com/39805679/173198149-5a9b9636-8e2f-4f91-83f0-6586fe076b6f.png)
 
