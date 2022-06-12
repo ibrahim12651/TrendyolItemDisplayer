@@ -1,3 +1,6 @@
+
+
+
 import selenium
 import pyautogui
 from time import sleep
@@ -7,7 +10,7 @@ from discord_webhook import DiscordWebhook , DiscordEmbed
 from progress.bar import IncrementalBar
 
 
-esya = input("İsteğinizi Eşyayı yazınız.: ") # Samsung s20 fe , Iphone gibi yazın   
+esya = input("İsteğinizi Eşyayı yazınız.: ")
 
 
 with IncrementalBar('Yükleniyor..', max=5000) as bar:
@@ -32,11 +35,19 @@ sleep(2)
 
 ara = driver.find_element_by_class_name("search-icon").click()
 sleep(9)
-perde = driver.find_element_by_class_name("overlay").click()
-sleep(2)
-telefon = driver.find_element_by_xpath('//*[@id="search-app"]/div/div[1]/div[2]/div[4]/div/div[2]/div[1]/a/div[2]/div[1]/div/span[2]').text
-sleep(2)
-tikla = driver.find_element_by_xpath('/html/body/div[1]/div[3]/div[2]/div[2]/div/div/div/div[1]/div[2]/div[4]/div/div[2]/div[1]').click()
+
+try:
+    perde = driver.find_element_by_class_name("overlay").click()
+    sleep(2)
+except:
+  print("Birşeyler ters gitti.")
+finally:
+    telefon = driver.find_element_by_xpath('//*[@id="search-app"]/div/div[1]/div[2]/div[4]/div/div[2]/div[1]/a/div[2]/div[1]/div/span[2]').text
+    sleep(2)
+    tikla = driver.find_element_by_xpath('/html/body/div[1]/div[3]/div[2]/div[2]/div/div/div/div[1]/div[2]/div[4]/div/div[2]/div[1]').click()
+    sleep(2)
+
+
 
 
 sleep(3)
@@ -62,7 +73,8 @@ with open("telefon.png", "rb") as f:
     embed.add_embed_field(name='Fiyat', value=driver.find_element_by_class_name("prc-box-dscntd").text)
     webhook.add_embed(embed)
     response = webhook.execute()
-
+  #  sleep(30)
+   # webhook.delete(response)
     sleep(30)
     driver.close()
     driver.quit()
