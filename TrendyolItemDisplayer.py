@@ -7,7 +7,7 @@ from discord_webhook import DiscordWebhook , DiscordEmbed
 from progress.bar import IncrementalBar
 
 
-esya = input("İsteğinizi Eşyayı yazınız.: ")
+esya = input("İsteğinizi Eşyayı yazınız.: ") # Samsung s20 fe , Iphone gibi yazın   
 
 
 with IncrementalBar('Yükleniyor..', max=5000) as bar:
@@ -54,7 +54,7 @@ sleep(2)
 pyautogui.screenshot("telefon.png",region=(310,290, 965, 620)) 
 sleep(2)
 
-webhook = DiscordWebhook(url='https://discord.com/api/webhooks/985255683949752361/ral0Odqq4NEIUWfU0AiH0cLwrlV-Q7duHcvJ77gMYBTpe4sh-mEI6rF8oLNm72wyNN-l')
+webhook = DiscordWebhook(url='')
 
 with open("telefon.png", "rb") as f:
     webhook.add_file(file=f.read(), filename='example.png')
