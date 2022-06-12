@@ -14,6 +14,18 @@ pip install progress <br>
 
 time ve os modülleri python da kendiliğin de vardır.
 
+## Çalışma Mantığı
+Not!! Google  açılınca hiç bir şeyle ilgilenmeyin Google ön planda açık kalsın çünkü ekran görüntüsü alırken  başka görüntüler alabilir.
+
+1- İstediğiniz bir esyayı yazdıktan sonra bar dolmakta.  (Telefon Markaları çalışıyor sadece) <br>
+2- Google açılmaktadır. Trendyol sitesine gider.<br>
+3- Yazdığınız Esyayı arama yerine yazıp o kategoriye gider.<br>
+4- Aradığınız  Telefona tıklayıp oraya girer.<br>
+5- Konsola fiyatını gösterir.<br>
+6- 2 Saniye bekledikten sonra O telefonun ekran görüntüsünü alır.<br>
+7- Discord Tarafından oluşturduğumuz Webhook'u sistem bağlanır.<br>
+8- Webhook tarafından alınan ekran görüntüsü,ismini ve fiyatını discord kanalına gönderir.<br>
+9- Ve sistem başarılı bir şekil de çalışmıştır.<br>
 
 ## Discord'da WebHook açma
 
@@ -51,16 +63,3 @@ time ve os modülleri python da kendiliğin de vardır.
 
 8- Zip'i açınca Projeye indirdiğiniz klasörüne atın ![image](https://user-images.githubusercontent.com/39805679/173200662-715af02a-ff7d-45fe-abb7-49d09c10e249.png) <br>
 9- Artık Google Chrome sürümünüzü başaralı bir şekil de ChromeDriver'ı indirdik.
-
-## Çalışma Mantığı
-Not!! Google  açılınca hiç bir şeyle ilgilenmeyin Google ön planda açık kalsın çünkü ekran görüntüsü alırken  başka görüntüler alabilir.
-
-1- İstediğiniz bir esyayı yazdıktan sonra bar dolmakta.  (Telefon Markaları çalışıyor sadece) <br>
-2- Google açılmaktadır. Trendyol sitesine gider.<br>
-3- Yazdığınız Esyayı arama yerine yazıp o kategoriye gider.<br>
-4- Aradığınız  Telefona tıklayıp oraya girer.<br>
-5- Konsola fiyatını gösterir.<br>
-6- 2 Saniye bekledikten sonra O telefonun ekran görüntüsünü alır.<br>
-7- Discord Tarafından oluşturduğumuz Webhook'u sistem bağlanır.<br>
-8- Webhook tarafından alınan ekran görüntüsü,ismini ve fiyatını discord kanalına gönderir.<br>
-9- Ve sistem başarılı bir şekil de çalışmıştır.<br>
