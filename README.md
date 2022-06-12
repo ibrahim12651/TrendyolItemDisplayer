@@ -63,3 +63,11 @@ Not!! Google  açılınca hiç bir şeyle ilgilenmeyin Google ön planda açık 
 
 8- Zip'i açınca Projeye indirdiğiniz klasörüne atın ![image](https://user-images.githubusercontent.com/39805679/173200662-715af02a-ff7d-45fe-abb7-49d09c10e249.png) <br>
 9- Artık Google Chrome sürümünüzü başaralı bir şekil de ChromeDriver'ı indirdik.
+
+
+## Videolu hali
+
+
+
+https://user-images.githubusercontent.com/39805679/173242622-e93f0ee0-c9f3-4506-abf4-6cc425d5abd8.mp4
+
