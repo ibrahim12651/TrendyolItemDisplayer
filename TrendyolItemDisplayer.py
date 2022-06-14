@@ -62,7 +62,9 @@ clear()
 print(fiyat)
 
 sleep(2)
-pyautogui.screenshot("telefon.png",region=(310,290, 965, 620)) 
+driver.switch_to.window(driver.window_handles[1])
+
+driver.save_screenshot("telefon.png")
 sleep(2)
 
 webhook = DiscordWebhook(url='')
