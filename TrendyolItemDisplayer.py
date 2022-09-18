@@ -42,9 +42,9 @@ try:
 except:
   print("Birşeyler ters gitti.")
 finally:
-    telefon = driver.find_element_by_xpath('//*[@id="search-app"]/div/div[1]/div[2]/div[4]/div/div[2]/div[1]/a/div[2]/div[1]/div/span[2]').text
+    telefon = driver.find_element_by_xpath('/html/body/div[1]/div[5]/div/div/div/div[1]/div[2]/div[4]/div[1]/div/div[2]/div[1]/a/div[2]/div[1]/div/div').text
     sleep(2)
-    tikla = driver.find_element_by_xpath('/html/body/div[1]/div[3]/div[2]/div[2]/div/div/div/div[1]/div[2]/div[4]/div/div[2]/div[1]').click()
+    tikla = driver.find_element_by_xpath('/html/body/div[1]/div[5]/div/div/div/div[1]/div[2]/div[4]/div[1]/div/div[2]/div[1]').click()
     sleep(2)
 
 
@@ -67,16 +67,14 @@ driver.switch_to.window(driver.window_handles[1])
 driver.save_screenshot("telefon.png")
 sleep(2)
 
-webhook = DiscordWebhook(url='')
+webhook = DiscordWebhook(url='https://discord.com/api/webhooks/1020964644610908181/b7cttHj4PyogOPZfpPO_gPVRGfBkjWCCL0oAVSaKmyjElIeli_xCHbDOcmxxdOklrKqT')
 
 with open("telefon.png", "rb") as f:
     webhook.add_file(file=f.read(), filename='example.png')
     embed = DiscordEmbed(title=telefon,color='03b2f8')
-    embed.add_embed_field(name='Fiyat', value=driver.find_element_by_class_name("prc-box-dscntd").text)
+    embed.add_embed_field(name='Fiyat', value=fiyat)
     webhook.add_embed(embed)
     response = webhook.execute()
-  #  sleep(30)
-   # webhook.delete(response)
     sleep(30)
     driver.close()
     driver.quit()
