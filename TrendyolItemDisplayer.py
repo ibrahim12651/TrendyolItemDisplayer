@@ -67,7 +67,7 @@ driver.switch_to.window(driver.window_handles[1])
 driver.save_screenshot("telefon.png")
 sleep(2)
 
-webhook = DiscordWebhook(url='https://discord.com/api/webhooks/1020964644610908181/b7cttHj4PyogOPZfpPO_gPVRGfBkjWCCL0oAVSaKmyjElIeli_xCHbDOcmxxdOklrKqT')
+webhook = DiscordWebhook(url='')
 
 with open("telefon.png", "rb") as f:
     webhook.add_file(file=f.read(), filename='example.png')
