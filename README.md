@@ -1,17 +1,20 @@
-# Selenium artık 4.4.3 sürüme geçiş yaptığı için methodları değiştiği için yenisini yazıyorum..
-
-
 # TrendyolItemDisplayer
 Telefon Markalarından istediğinizi yazıp size ismini ve fiyatını bir de fotosunu atacaktır.
 
+# Güncelleme
+
+Selenium 4.4.3 Güncellemesine göre ayarlandı ve artık daha iyi çalışıyor (22.09.2022 14:23)
+
+
+# Gerekli Bilgiler
+
 Not : Iphone ve Samsung telefonları üzerin de test ettim ve çalıştı eğer ki çalışmazsa bana ulaşın ! Discord : **İbrahim#8285**
 
-![image](https://user-images.githubusercontent.com/39805679/173198149-5a9b9636-8e2f-4f91-83f0-6586fe076b6f.png)
+![image](https://user-images.githubusercontent.com/39805679/191731566-20ce56ea-a7d0-4324-aa9c-6aacb102bbca.png)
 
 Bu modülleri indirmeniz gereklidir yoksa çalışmaz!
 
 pip install selenium <br>
-pip install pyautogui <br>
 pip install discord-webhook <br>
 pip install progress <br>
 
