@@ -15,7 +15,7 @@ pip install progress <br>
 time ve os modülleri python da kendiliğin de vardır.
 
 ## Çalışma Mantığı
-Not!! Google  açılınca hiç bir şeyle ilgilenmeyin Google ön planda açık kalsın çünkü ekran görüntüsü alırken  başka görüntüler alabilir.
+Not!! Google  açılınca hiç bir şeyle ilgilenmeyin Google ön planda açık kalsın çünkü ekran görüntüsü alırken  başka görüntüler alabilir. <br>
 2)Not Selenium artık 4.4.3 sürüme geçiş yaptığı için methodları değiştiği için yenisini yazıyorum..
 
 
