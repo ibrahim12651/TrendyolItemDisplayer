@@ -16,6 +16,8 @@ time ve os modülleri python da kendiliğin de vardır.
 
 ## Çalışma Mantığı
 Not!! Google  açılınca hiç bir şeyle ilgilenmeyin Google ön planda açık kalsın çünkü ekran görüntüsü alırken  başka görüntüler alabilir.
+2)Not Selenium artık 4.4.3 sürüme geçiş yaptığı için methodları değiştiği için yenisini yazıyorum..
+
 
 1- İstediğiniz bir esyayı yazdıktan sonra bar dolmakta.  (Telefon Markaları çalışıyor sadece) <br>
 2- Google açılmaktadır. Trendyol sitesine gider.<br>
