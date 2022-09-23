@@ -1,3 +1,7 @@
+# SonDakika (cidden)
+
+https://www.trendyol.com/ classlarını değiştirdiği için sistem çalışmıyor!!
+
 # TrendyolItemDisplayer
 Telefon Markalarından istediğinizi yazıp size ismini ve fiyatını bir de fotosunu atacaktır.
 
